@@ -1,0 +1,22 @@
+{
+   “bundles”: [
+      {
+         "id": 1,
+         “name”: “Rebel”,
+         “weapon_force”: 10,
+         “cost”: 0
+      },
+      {
+         "id": 2,
+         “name”: “Legion”,
+         “weapon_force”: 50,
+         “cost”: 100
+      },
+      {
+         "id": 3,
+         “name”: “Legendary”,
+         “weapon_force”: 100,
+         “cost”: 500
+      }
+   ]
+}
