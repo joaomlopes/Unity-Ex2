@@ -1,22 +1,22 @@
 # Unity-Ex2
 
-Credits to:
+<b>Credits to:</b>
 João Lopes - Design and Development
 
-Tutorials :
+<h3>Tutorials:</h3>
 
-Unity 2D Space Shooter tutorial
+<b>Unity 2D Space Shooter tutorial</b>
 http://www.pixelelement.com/blog/unity-2d-space-shooter-tutorial-part-1/
 
 [followed to understand how to deploy enemyspaceships and move bullets toward player ship and vice-versa]
 
- AssetBundles and the AssetBundle Manager 
+<b>AssetBundles and the AssetBundle Manager</b>
 https://unity3d.com/pt/learn/tutorials/topics/scripting/assetbundles-and-assetbundle-manager
 
 All the code was writed personally by João Lopes, using the tutorials to read, understand and learn all the mechanics.
 
-Time of Development:
+<b>Time of Development:</b>
 15 working days
 
-UML:
-http://aimtothe.space/unity/unity-shoot-em-up-game.pdf
+<b>UML:</b>
+http://aimtothe.space/unity/Exercise2/unity-shoot-em-up-game.pdf
