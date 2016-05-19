@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2206815428
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fea5e210c2aae2987d4e0863cf32603b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 513330cb23546992c2052edfe8045760
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4dacbd5ffdf3547999d8740498d7fcec, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/bullet/earth.prefab
+- Assets/Prefabs/bullet/rock.prefab
+- Assets/Prefabs/bullet/grass.prefab
+- Assets/Prefabs/bullet/air.prefab
+- Assets/Prefabs/bullet/ocean.prefab
+- Assets/Prefabs/bullet/fire.prefab
+Dependencies: []

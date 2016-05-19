@@ -45,25 +45,44 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Classes\Spaceship.cs" />
-     <Compile Include="Assets\Scripts\Destroyer.cs" />
-     <Compile Include="Assets\Scripts\EnemyShipBullet.cs" />
-     <Compile Include="Assets\Scripts\EnemyShipControl.cs" />
-     <Compile Include="Assets\Scripts\EnemyShipGun.cs" />
-     <Compile Include="Assets\Scripts\EnemyShipSpawner.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\GamePlayer.cs" />
-     <Compile Include="Assets\Scripts\GameScore.cs" />
-     <Compile Include="Assets\Scripts\MusicPlayer.cs" />
-     <Compile Include="Assets\Scripts\SceneManagerGO.cs" />
-     <Compile Include="Assets\Scripts\SpaceshipBullet.cs" />
-     <Compile Include="Assets\Scripts\SpaceshipControl.cs" />
+     <Compile Include="Assets\Scripts\AssetBundleManager\AssetBundleLoadOperation.cs" />
+     <Compile Include="Assets\Scripts\AssetBundleManager\AssetBundleManager.cs" />
+     <Compile Include="Assets\Scripts\AssetBundleManager\LoadBundleManager.cs" />
+     <Compile Include="Assets\Scripts\AssetBundleManager\Utility.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShipBullet.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShipControl.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShipGun.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemyShipSpawner.cs" />
+     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Game\GameScore.cs" />
+     <Compile Include="Assets\Scripts\Game\SpaceshipBullet.cs" />
+     <Compile Include="Assets\Scripts\Game\SpaceshipControl.cs" />
+     <Compile Include="Assets\Scripts\General\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\General\MusicPlayer.cs" />
+     <Compile Include="Assets\Scripts\General\SceneManagerGO.cs" />
+     <Compile Include="Assets\Scripts\Highscores\HighscorePanel.cs" />
+     <Compile Include="Assets\Scripts\Highscores\PrintHighscores.cs" />
+     <Compile Include="Assets\Scripts\Scenes\BundlesManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\GameOver.cs" />
+     <Compile Include="Assets\Scripts\Scenes\HighscoresManager.cs" />
+     <Compile Include="Assets\Scripts\Scenes\NewRecord.cs" />
+     <Compile Include="Assets\Scripts\Scenes\StartMenu.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>/Users/joaomlopes/owncloudSDW/Dev/Projects/Unity/Exercise 2/Assets/plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/joaomlopes/owncloudSDW/Dev/Projects/Unity/Exercise 2/Assets/plugins/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{AC93FC73-5ADD-6DE7-B5F9-EA9F57A53F4D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

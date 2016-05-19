@@ -1,0 +1,15 @@
+	{
+		"version": "1.0",
+		"highscores": [
+        	{ "name": "Jonh Doe", "score": 10 },
+	       	{ "name": "Jonh Doe", "score": 20 },
+			{ "name": "Jonh Doe", "score": 30 },
+			{ "name": "Jonh Doe", "score": 40 },
+			{ "name": "Jonh Doe", "score": 80 },	
+			{ "name": "Jonh Doe", "score": 50 },
+			{ "name": "Jonh Doe", "score": 60 },
+			{ "name": "Jonh Doe", "score": 70 },
+			{ "name": "Jonh Doe", "score": 90 },
+			{ "name": "Jonh Doe", "score": 100 },		
+	   	],
+	}
